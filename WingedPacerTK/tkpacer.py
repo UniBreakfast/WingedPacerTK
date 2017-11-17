@@ -5,6 +5,7 @@ import tkinter.font as fnt
 from tkinter import ttk
 
 
+
 pacer = tki.Tk();    pacer.title('PACER');    pacer.geometry('242x220+200+250')
 
 treb14 = fnt.Font(family='Trebuchet', size=13)
