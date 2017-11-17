@@ -10,6 +10,7 @@ pacer = tki.Tk();    pacer.title('PACER');    pacer.geometry('242x220+200+250')
 
 treb14 = fnt.Font(family='Trebuchet', size=13)
 
+
 def Button(name, text, command, parent=pacer):
     return tki.Button(parent, name=name, text=text, command=command,
                       font=treb14, borderwidth=3)
